@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+canvas { 
+	border: 2px solid black; 
+}
+
+a{
+	float:right;
+	background-color: red;
+	padding: 1%;
+	text-decoration: none;
+	color:white;
+}
+
+button{
+	background-color: red;
+	color:white;
+	padding: 1%;
+	text-decoration: none;
+	border: none;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+h1{
+	color: red;
+	text-align: center;
+	font-size: 40px;
+}
+
+h2{
+	color: red;
+	font-size: 27px;
+}

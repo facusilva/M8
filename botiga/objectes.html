@@ -1,0 +1,32 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="styles.css"> <!-- Linkeo el css al documento html -->
+	</head>
+	<body>
+		<a href="arrays_multidimensionals.html">Apartat videojocs</a> <!-- Link al apartado de videojuegos -->
+		<br>
+		<h1>Tenda de consolas</h1>
+		<br>
+		<h2>Afegir una consola</h2>
+		<script src="objectes.js"></script>
+		<form name="form" method="post">
+			Nom: <input type="text" name="nom"><br>
+			GPU: <input type="text" name="gpu"><br>
+			CPU: <input type="text" name="cpu"><br>
+			RAM: <input type="text" name="ram"><br>
+			Capacitat: <input type="text" name="capacitat"><br>
+			Preu: <input type="text" name="preu"><br>
+			Estoc: <input type="text" name="estoc">	
+		</form>
+		<button onclick="afegirConsola()">Afegir</button>
+		<button onclick="descripcio()">Mostrar consolas</button>
+		<button onclick="aplicarDesc()">Aplicar descompte</button>
+		<button onclick="grafica()">Dibujar grafica</button>
+		<p></p>
+		<br>
+		<br>
+		<canvas id="tutorial" width="500" height="500"></canvas>
+		<div id="llegenda"></div>
+
+	</body>
+</html>
